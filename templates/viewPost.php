@@ -3,7 +3,7 @@
 ?>
 
     <!-- Breadcrumb Area Start -->
-    <section class="breadcrumb-area blog bg-img bg-overlay jarallax" style="background-image: url(../resources/img/<?php echo htmlspecialchars($results["post"]->coverImage) ?>);">
+    <section class="breadcrumb-area blog bg-img bg-overlay jarallax" style="background-image: url(../resources/img/<?php echo htmlspecialchars($results["post"]->coverImage) ?>)">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
@@ -29,8 +29,8 @@
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-10">
                     <!-- Blog Details Text -->
-                    <div class="blog-details-text">
-                    <?php echo htmlspecialchars($results["post"]->content) ?>
+                    <div class="blog-details-text"> 
+                    <?php echo $results["post"]->content ?>
                     </div>
                 </div>
             </div>

@@ -3,7 +3,7 @@
 ?>
 
     <!-- Breadcrumb Area Start -->
-    <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(../resources/img/bg-img/38.jpg);">
+    <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(../resources/img/<?php echo ARCHIVE_TITLE_BACKGROUND ?>);">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
@@ -11,7 +11,7 @@
                         <h2 class="page-title">Latest Posts</h2>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb justify-content-center">
-                                <li class="breadcrumb-item"><a href="index.html"><i class="icon_house_alt"></i>Home</a></li>
+                                <li class="breadcrumb-item"><a href="index.php"><i class="icon_house_alt"></i>Home</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">Posts</li>
                             </ol>
                         </nav>
@@ -31,7 +31,7 @@
                 <div class="col-12 col-lg-6">
                     <div class="single-post-area wow fadeInUpBig" data-wow-delay="100ms">
                         <!-- Post Thumbnail -->
-                        <a href="#" class="post-thumbnail"><img src="../resources/img/<?php echo htmlspecialchars($post->coverImage) ?>" alt=""></a>
+                        <a href="#" class="post-thumbnail"><img src="../resources/img/<?php echo htmlspecialchars($post->coverImage) ?>" style="max-height: 250px" alt=""></a>
                         <!-- Post Catagory -->
                         <a href="#" class="btn post-catagory">
                             <?php echo htmlspecialchars($post->author) ?>
@@ -43,7 +43,7 @@
                                 <?php echo htmlspecialchars($post->publicationDate) ?>
                                 </a>
                             </div>
-                            <a href="#" class="post-title"><?php echo htmlspecialchars($post->title) ?></a>
+                            <a href=".?action=viewPost&amp;postId=<?php echo $post->id?>" class="post-title"><?php echo htmlspecialchars($post->title) ?></a>
                         </div>
                     </div>
                 </div>
