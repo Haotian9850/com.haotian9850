@@ -1,4 +1,4 @@
-USE cms_test;
+USE haotian1_cms;
 
 INSERT INTO posts 
 (coverImage, publicationDate, title, author, summary, content)
@@ -308,7 +308,7 @@ VALUES(
 INSERT INTO posts 
 (coverImage, publicationDate, title, author, summary, content)
 VALUES(
-  "p1-lenovo.jpg",
+  "thinkpad-p1.jpeg",
   "2018-12-12",
   "Lenovo ThinkPad Mobile Workstations: Design and Construction",
   "Hao",

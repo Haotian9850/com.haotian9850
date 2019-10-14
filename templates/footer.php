@@ -12,9 +12,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
                         <!-- Social Info -->
                         <div class="social-info">
-                            <a href="#"><i class="ti-github" aria-hidden="true"></i></a>
-                            <a href="#"><i class="ti-linkedin" aria-hidden="true"></i></a>
-                            <a href="#"><i class="ti-facebook" aria-hidden="true"></i></a>
+                            <a href="https://github.com/Haotian9850"><i class="ti-github" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/haotian-liu-9850/"><i class="ti-linkedin" aria-hidden="true"></i></a>
                             <a href="#"><i class="ti-lock" aria-hidden="true"></i></a>
                         </div>
                     </div>

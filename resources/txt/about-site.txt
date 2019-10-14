@@ -1,3 +1,3 @@
 <h4>About this site</h4>
 <br/>
-<b>Technologies: </b>yes, this is a <i>LAMP</i>-based site! But it will soon be upgraded with more relevant technologies such as <i>Node</i> and <i>Angular</i>
+<b>Technologies: </b>yes, this is a <i>LAMP</i>-based site! But it will soon be upgraded with more relevant technologies such as <i>Node</i> and <i>Angular</i>, so check back often!
