@@ -19,7 +19,7 @@
 
     function archive() {
       $results = array();
-      $data = Post::getAllPosts(); 
+      $data = Post::getList(1000, "publicationDate DESC"); 
       $results["posts"] = $data["results"];
       $results["totalRows"] = $data["totalRows"];
       $results["pageTitle"] = "All posts";
@@ -44,6 +44,8 @@
     function homepage() {
       $results = array(); 
       $results["pageTitle"] = "Haotian";
+      $data = Post::getList(3, "publicationDate DESC"); 
+      $results["posts"] = $data["results"];
       require( TEMPLATE_PATH . "/homepage.php" );
     }
  ?>
