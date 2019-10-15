@@ -31,7 +31,7 @@
                                 <h2 data-animation="bounceInDown" data-delay="900ms"><?php echo htmlspecialchars($post->title) ?></h2>
                                 <p data-animation="bounceInDown" data-delay="500ms"><?php echo htmlspecialchars($post->summary) ?></p>
                                 <div class="hero-btn-group" data-animation="bounceInDown" data-delay="100ms">
-                                    <a href=".?action=viewPost&amp;postId=<?php echo $post->id?>" class="btn alime-btn mb-3 mb-sm-0 mr-4">Reads full story</a>
+                                    <a href=".?action=viewPost&amp;postId=<?php echo $post->id?>" class="btn alime-btn mb-3 mb-sm-0 mr-4">Read full story</a>
                                 </div>
                             </div>
                         </div>

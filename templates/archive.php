@@ -31,7 +31,7 @@
                 <div class="col-12 col-lg-6">
                     <div class="single-post-area wow fadeInUpBig" data-wow-delay="100ms">
                         <!-- Post Thumbnail -->
-                        <a href="#" class="post-thumbnail"><img src="../resources/img/<?php echo htmlspecialchars($post->coverImage) ?>" style="max-height: 250px" alt=""></a>
+                        <a href="#" class="post-thumbnail"><img src="../resources/img/<?php echo htmlspecialchars($post->coverImage) ?>" style="width:600px;height:300px;object-fit:cover" alt=""></a>
                         <!-- Post Catagory -->
                         <a href="#" class="btn post-catagory">
                             <?php echo htmlspecialchars($post->author) ?>
